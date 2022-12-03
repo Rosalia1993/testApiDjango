@@ -1,0 +1,7 @@
+
+superuser: testApiDjango
+passwd: t3stAp!
+
+Query Customer Order Status 
+http://127.0.0.1:8000/orders/orderStatus/ORD_7654/
+
