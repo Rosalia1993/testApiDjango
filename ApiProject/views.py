@@ -29,3 +29,5 @@ class OrderStatusItemView(View):
         #print (order,final_status)
         #return JsonResponse (list(item.values()),safe=False)
         return JsonResponse(dict(order_number=order,status=final_status))
+
+
